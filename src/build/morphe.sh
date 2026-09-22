@@ -76,6 +76,14 @@ morphe_dl(){
 	#get_apk "com.google.android.apps.youtube.music" "youtube-music-x86" "apk"x86"
 	#patch "youtube-music-x86" "morphe"
 }
+4() {
+	# Patch Instagram (Morphe MPP):
+	dl_gh "morphe-desktop" "MorpheApp" "latest"
+	dl_gh "piko" "crimera" "latest"
+	get_patches_key "instagram-piko"
+	get_apk "com.instagram.android" "instagram-arm64-v8a" "bundle" "arm64-v8a" "120-640dpi" "Android 9.0+"
+	patch "instagram-arm64-v8a" "morphe"
+}
 case "$1" in
     1)
         1
@@ -86,4 +94,8 @@ case "$1" in
     3)
         3
         ;;
+    4)
+        4
+        ;;
 esac
+
