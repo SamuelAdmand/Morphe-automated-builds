@@ -38,96 +38,64 @@ Download
 > 
 ---
 
-<details>
-  <summary><h2>Jump list apps</h2></summary>
+<details open>
+  <summary><h2>📱 App Directory & Quick Jump</h2></summary>
 
-#### [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](README.md#youtube)
+### 🎬 Media & Streaming
+| Application | Category | Quick Jump |
+| :--- | :--- | :--- |
+| **YouTube** | Video Streaming | [Jump to Section](#youtube) |
+| **YouTube Music** | Audio / Music Streaming | [Jump to Section](#youtube-music) |
+| **SoundCloud** | Music Streaming | [Jump to Section](#soundcloud) |
+| **Twitch** | Live Streaming | [Jump to Section](#twitch) |
+| **Amazon Prime Video** | Video Streaming | [Jump to Section](#prime-video) |
 
-#### [![YouTube Music](https://img.shields.io/badge/YouTube_Music-FF0000?style=for-the-badge&logo=youtube-music&logoColor=white)](README.md#youtube-music)
+### 💬 Social & Messaging
+| Application | Category | Quick Jump |
+| :--- | :--- | :--- |
+| **Discord** | Voice & Community Chat | [Jump to Section](#discord) |
+| **Facebook** | Social Network | [Jump to Section](#facebook) |
+| **Instagram** | Photo & Video Sharing | [Jump to Section](#instagram) |
+| **Messenger** | Direct Messaging | [Jump to Section](#messenger) |
+| **Reddit** | Forums & Communities | [Jump to Section](#reddit) |
+| **Telegram** | Encrypted Messaging | [Jump to Section](#Telegram-1) |
+| **Threads** | Text & Social Sharing | [Jump to Section](#threads) |
+| **TikTok** | Short-form Video | [Jump to Section](#tiktok) |
+| **Tumblr** | Microblogging | [Jump to Section](#tumblr) |
+| **Twitter / X** | Microblogging & Social | [Jump to Section](#twitter) |
+| **Viber** | Calls & Messaging | [Jump to Section](#viber) |
+| **Zalo** | Calls & Messaging | [Jump to Section](#zalo-1) |
 
-#### [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](README.md#facebook)
-
-#### [![Messenger](https://img.shields.io/badge/Messenger-00B2FF?style=for-the-badge&logo=messenger&logoColor=white)](README.md#messenger)
-
-#### [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](README.md#twitter)
-
-#### [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](README.md#instagram)
-
-#### [![Threads](https://img.shields.io/badge/Threads-000000?style=for-the-badge&logo=Threads&logoColor=white)](README.md#threads)
-
-#### [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?style=for-the-badge&logo=TikTok&logoColor=white)](README.md#tiktok)
-
-#### [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?style=for-the-badge&logo=Twitch&logoColor=white)](README.md#twitch)
-
-#### [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=Reddit&logoColor=white)](README.md#reddit)
-
-#### [![Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white)](README.md#lightroom)
-
-#### [![Tumblr](https://img.shields.io/badge/Tumblr-%2336465D.svg?style=for-the-badge&logo=Tumblr&logoColor=white)](README.md#tumblr)
-
-#### [![SoundCloud](https://img.shields.io/badge/soundcloud-FF5500?style=for-the-badge&logo=soundcloud&logoColor=white)](README.md#soundcloud)
-
-#### [![Duolingo](https://img.shields.io/badge/Duolingo-%234DC730.svg?style=for-the-badge&logo=Duolingo&logoColor=white)](README.md#duolingo)
-
-#### [![Viber](https://img.shields.io/badge/Viber-8B66A9?style=for-the-badge&logo=viber&logoColor=white)](README.md#viber)
-
-#### [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](README.md#discord)
-
-#### [![Protonmail](https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white)](README.md#proton-mail)
-
-#### [![Prime Video](https://img.shields.io/badge/Amazon%20Prime-0F79AF?style=for-the-badge&logo=amazonprime&logoColor=white)](README.md#prime-video)
-
-#### [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](README.md#Telegram-1)
-
-#### [Google Photos](README.md#google-photos-1)
-
-#### [Adguard](README.md#adguard-1)
-
-#### [Smart Launcher](README.md#smart-launcher-1)
-
-#### [WPS Office](README.md#wps-office-1)
-
-#### [Proton VPN](README.md#proton-vpn-1)
-
-#### [Psiphon](README.md#psiphon-1)
-
-#### [Google News](README.md#google-news-1)
-
-#### [Photomath](README.md#photomath-1)
-
-#### [Truecaller](README.md#truecaller-1)
-
-#### [EyeconCaller](README.md#eyeconcaller-1)
-
-#### [Zalo](README.md#zalo-1)
-
-#### [CamScanner](README.md#camscanner-1)
-
-#### [Battery Guru](README.md#battery-guru-1)
-
-#### [Brave Browser](README.md#brave-browser-1)
-
-#### [RAR](README.md#rar-1)
-
-#### [TeraBox](README.md#terabox-1)
-
-#### [Strava](README.md#strava-1)
-
-#### [Waze](README.md#waze-1)
-
-#### [Pixiv](README.md#pixiv-1)
-
-#### [Solid Explorer File Manager](README.md#solid-explorer-file-manager-1)
-
-#### [Nova Launcher](README.md#nova-launcher-1)
-
-#### [Tasker](README.md#tasker-1)
-
-#### [FX File Explorer](README.md#fx-file-explorer-1)
-
-#### [MyFitnessPal](README.md#MyFitnessPal-1)
-
-#### [Google Recorder](README.md#Google-Recorder-1)
+### 🛠️ Utilities & Productivity
+| Application | Category | Quick Jump |
+| :--- | :--- | :--- |
+| **AdGuard** | Ad Blocking & Privacy | [Jump to Section](#adguard-1) |
+| **Battery Guru** | Battery Health & Saver | [Jump to Section](#battery-guru-1) |
+| **Brave Browser** | Web Browser | [Jump to Section](#brave-browser-1) |
+| **CamScanner** | Document Scanner & PDF | [Jump to Section](#camscanner-1) |
+| **Duolingo** | Language Learning | [Jump to Section](#duolingo) |
+| **EyeconCaller** | Caller ID & Spam Block | [Jump to Section](#eyeconcaller-1) |
+| **FX File Explorer** | File Management | [Jump to Section](#fx-file-explorer-1) |
+| **Google News** | News & Headlines | [Jump to Section](#google-news-1) |
+| **Google Photos** | Cloud Photo Backup | [Jump to Section](#google-photos-1) |
+| **Google Recorder** | Audio Recorder & Transcriber | [Jump to Section](#Google-Recorder-1) |
+| **Lightroom** | Photo Editing | [Jump to Section](#lightroom) |
+| **MyFitnessPal** | Health & Calorie Tracking | [Jump to Section](#MyFitnessPal-1) |
+| **Nova Launcher** | Home Screen Launcher | [Jump to Section](#nova-launcher-1) |
+| **Photomath** | Math Problem Solver | [Jump to Section](#photomath-1) |
+| **Pixiv** | Anime & Art Community | [Jump to Section](#pixiv-1) |
+| **Proton Mail** | Encrypted Email | [Jump to Section](#proton-mail) |
+| **Proton VPN** | Secure VPN | [Jump to Section](#proton-vpn-1) |
+| **Psiphon Pro** | Anti-censorship VPN | [Jump to Section](#psiphon-1) |
+| **RAR** | Archive Manager (Unrar/Zip) | [Jump to Section](#rar-1) |
+| **Smart Launcher** | Minimalist Launcher | [Jump to Section](#smart-launcher-1) |
+| **Solid Explorer** | Dual-pane File Manager | [Jump to Section](#solid-explorer-file-manager-1) |
+| **Strava** | Running & Cycling Tracker | [Jump to Section](#strava-1) |
+| **Tasker** | Device Automation | [Jump to Section](#tasker-1) |
+| **TeraBox** | Cloud Storage & Backup | [Jump to Section](#terabox-1) |
+| **Truecaller** | Caller ID & Spam Block | [Jump to Section](#truecaller-1) |
+| **Waze** | GPS & Live Traffic | [Jump to Section](#waze-1) |
+| **WPS Office** | Office Docs & PDF | [Jump to Section](#wps-office-1) |
 
 </details>
 
@@ -231,12 +199,50 @@ Download
 
 ### [Morphe:](https://github.com/MorpheApp/morphe-patches)
 
-| [Stable version](https://github.com/MorpheApp/morphe-patches/releases/latest)  | [Beta version](https://github.com/MorpheApp/morphe-patches/releases)                |
-| ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- |
-| [Arm64-v8a](../../releases/download/all/youtube-music-arm64-v8a-morphe.apk)    | [Arm64-v8a](../../releases/download/all/youtube-music-beta-arm64-v8a-morphe.apk)    |
-| [Armeabi-v7a](../../releases/download/all/youtube-music-armeabi-v7a-morphe.apk)| [Armeabi-v7a](../../releases/download/all/youtube-music-beta-armeabi-v7a-morphe.apk)|
-| [x86](../../releases/download/all/youtube-music-x86-morphe.apk)                | [x86](../../releases/download/all/youtube-music-beta-x86-morphe.apk)                |
-| [x86_64](../../releases/download/all/youtube-music-x86_64-morphe.apk)          | [x86_64](../../releases/download/all/youtube-music-beta-x86_64-morphe.apk)          |
+#### Standard Package (`com.google.android.apps.youtube.music`)
+| Architecture | [Stable version](https://github.com/MorpheApp/morphe-patches/releases/latest) | [Beta version](https://github.com/MorpheApp/morphe-patches/releases) |
+| :--- | :--- | :--- |
+| **Arm64-v8a** | [youtube-music-arm64-v8a-morphe.apk](../../releases/download/all/youtube-music-arm64-v8a-morphe.apk) | [youtube-music-beta-arm64-v8a-morphe.apk](../../releases/download/all/youtube-music-beta-arm64-v8a-morphe.apk) |
+| **Armeabi-v7a** | [youtube-music-armeabi-v7a-morphe.apk](../../releases/download/all/youtube-music-armeabi-v7a-morphe.apk) | [youtube-music-beta-armeabi-v7a-morphe.apk](../../releases/download/all/youtube-music-beta-armeabi-v7a-morphe.apk) |
+| **x86** | [youtube-music-x86-morphe.apk](../../releases/download/all/youtube-music-x86-morphe.apk) | [youtube-music-beta-x86-morphe.apk](../../releases/download/all/youtube-music-beta-x86-morphe.apk) |
+| **x86_64** | [youtube-music-x86_64-morphe.apk](../../releases/download/all/youtube-music-x86_64-morphe.apk) | [youtube-music-beta-x86_64-morphe.apk](../../releases/download/all/youtube-music-beta-x86_64-morphe.apk) |
+
+#### 🎧 Audio Enhancement Whitelisted Packages (OnePlus / Oppo / Realme)
+> [!TIP]
+> **Why use these builds?**
+> On OnePlus, Oppo, Realme, and ColorOS/OxygenOS devices, system-level audio enhancements (such as **Dirac Audio Tuner**, **Dolby Atmos**, and **O-Reality Audio**) only activate for media players on the system's internal audio player whitelist.
+> These special builds change the package name of YouTube Music to match whitelisted players, giving you full hardware audio enhancement, graphic equalizers, and Dolby Atmos audio processing.
+
+<details>
+<summary><b>Click to expand Whitelisted Package Downloads (QQ Music, Kugou Lite, Kugou, Kugou Viper)</b></summary>
+<br>
+
+##### 1. QQ Music Whitelist (`com.tencent.qqmusic`)
+| Architecture | Stable version | Beta version |
+| :--- | :--- | :--- |
+| **Arm64-v8a** | [youtube-music-arm64-v8a-qqmusic-morphe.apk](../../releases/download/all/youtube-music-arm64-v8a-qqmusic-morphe.apk) | [youtube-music-beta-arm64-v8a-qqmusic-morphe.apk](../../releases/download/all/youtube-music-beta-arm64-v8a-qqmusic-morphe.apk) |
+| **Armeabi-v7a** | [youtube-music-armeabi-v7a-qqmusic-morphe.apk](../../releases/download/all/youtube-music-armeabi-v7a-qqmusic-morphe.apk) | [youtube-music-beta-armeabi-v7a-qqmusic-morphe.apk](../../releases/download/all/youtube-music-beta-armeabi-v7a-qqmusic-morphe.apk) |
+
+##### 2. Kugou Lite Whitelist (`com.kugou.android.lite`)
+| Architecture | Stable version | Beta version |
+| :--- | :--- | :--- |
+| **Arm64-v8a** | [youtube-music-arm64-v8a-kugou-lite-morphe.apk](../../releases/download/all/youtube-music-arm64-v8a-kugou-lite-morphe.apk) | [youtube-music-beta-arm64-v8a-kugou-lite-morphe.apk](../../releases/download/all/youtube-music-beta-arm64-v8a-kugou-lite-morphe.apk) |
+| **Armeabi-v7a** | [youtube-music-armeabi-v7a-kugou-lite-morphe.apk](../../releases/download/all/youtube-music-armeabi-v7a-kugou-lite-morphe.apk) | [youtube-music-beta-armeabi-v7a-kugou-lite-morphe.apk](../../releases/download/all/youtube-music-beta-armeabi-v7a-kugou-lite-morphe.apk) |
+
+##### 3. Kugou Whitelist (`com.kugou.android`)
+| Architecture | Stable version | Beta version |
+| :--- | :--- | :--- |
+| **Arm64-v8a** | [youtube-music-arm64-v8a-kugou-morphe.apk](../../releases/download/all/youtube-music-arm64-v8a-kugou-morphe.apk) | [youtube-music-beta-arm64-v8a-kugou-morphe.apk](../../releases/download/all/youtube-music-beta-arm64-v8a-kugou-morphe.apk) |
+| **Armeabi-v7a** | [youtube-music-armeabi-v7a-kugou-morphe.apk](../../releases/download/all/youtube-music-armeabi-v7a-kugou-morphe.apk) | [youtube-music-beta-armeabi-v7a-kugou-morphe.apk](../../releases/download/all/youtube-music-beta-armeabi-v7a-kugou-morphe.apk) |
+
+##### 4. Kugou Viper Whitelist (`com.kugou.viper`)
+| Architecture | Stable version | Beta version |
+| :--- | :--- | :--- |
+| **Arm64-v8a** | [youtube-music-arm64-v8a-kugou-viper-morphe.apk](../../releases/download/all/youtube-music-arm64-v8a-kugou-viper-morphe.apk) | [youtube-music-beta-arm64-v8a-kugou-viper-morphe.apk](../../releases/download/all/youtube-music-beta-arm64-v8a-kugou-viper-morphe.apk) |
+| **Armeabi-v7a** | [youtube-music-armeabi-v7a-kugou-viper-morphe.apk](../../releases/download/all/youtube-music-armeabi-v7a-kugou-viper-morphe.apk) | [youtube-music-beta-armeabi-v7a-kugou-viper-morphe.apk](../../releases/download/all/youtube-music-beta-armeabi-v7a-kugou-viper-morphe.apk) |
+
+</details>
+
 
 ### [Revanced Extended forked by anddea:](https://github.com/anddea/revanced-patches)
 

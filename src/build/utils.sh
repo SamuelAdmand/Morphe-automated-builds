@@ -155,7 +155,12 @@ get_patches_key() {
 	while IFS= read -r line2 || [[ -n "$line2" ]]; do
 		[[ -z "$line2" ]] && continue
 		patch_name="${line2%%|*}"
-		includePatches+=" -e \"$patch_name\""
+		patch_opts="${line2#*|}"
+		if [[ "$line2" == *"|"* && -n "$patch_opts" ]]; then
+			includePatches+=" -e \"$patch_name\" $patch_opts"
+		else
+			includePatches+=" -e \"$patch_name\""
+		fi
 		includeLinesFound=true
 	done < "$patchDir/include-patches"
 

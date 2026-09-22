@@ -69,12 +69,22 @@ morphe_dl(){
 	prefer_version="$youtube_music_experimental_support"
 	get_apk "com.google.android.apps.youtube.music" "youtube-music-beta-arm64-v8a" "apk" "arm64-v8a"
 	patch "youtube-music-beta-arm64-v8a" "morphe"
+	# Audio Whitelist Variants (OnePlus / Oppo)
+	for pkg_suffix in "qqmusic" "kugou-lite" "kugou" "kugou-viper"; do
+		get_patches_key "youtube-music-morphe-$pkg_suffix"
+		patch "youtube-music-beta-arm64-v8a" "$pkg_suffix-morphe"
+	done
 	# Armeabi-v7a
 	get_patches_key "youtube-music-morphe"
 	#prefer_version="9.18.50"
 	prefer_version="$youtube_music_experimental_support"
 	get_apk "com.google.android.apps.youtube.music" "youtube-music-beta-armeabi-v7a" "apk" "armeabi-v7a"
 	patch "youtube-music-beta-armeabi-v7a" "morphe"
+	# Audio Whitelist Variants (OnePlus / Oppo)
+	for pkg_suffix in "qqmusic" "kugou-lite" "kugou" "kugou-viper"; do
+		get_patches_key "youtube-music-morphe-$pkg_suffix"
+		patch "youtube-music-beta-armeabi-v7a" "$pkg_suffix-morphe"
+	done
 	# x86_64
 	#get_patches_key "youtube-music-morphe"
 	#get_apk "com.google.android.apps.youtube.music" "youtube-music-beta-x86_64" "apk" "x86_64"
