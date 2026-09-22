@@ -167,7 +167,7 @@ If you use **YouTube** or **YouTube Music**, Google services authentication requ
 
 ```mermaid
 flowchart LR
-    A[Daily Cron / Push] --> B{Check Upstream Releases}
+    A[30-Min Cron / Push] --> B{Check Upstream Releases}
     B -->|New Morphe / Piko Patch| C[Download Base Clean APK]
     B -->|No Changes| D[Skip Build]
     C --> E[Morphe Desktop Patcher]
@@ -176,7 +176,8 @@ flowchart LR
     G --> H[Publish to Release 'all']
 ```
 
-- **Daily Synchronized Builds:** Automated GitHub Actions monitor upstream `MorpheApp` and `crimera` repositories for new patches and rebuilds automatically.
+- **Real-Time Automated Checks:** Automated GitHub Actions monitor upstream `MorpheApp` and `crimera` repositories every 30 minutes for new patches and rebuilds automatically.
+
 - **Safe & Clean:** Source APKs are fetched directly from trusted APKMirror mirrors and verified with clean checksums before patching.
 - **Single Rolling Release:** All builds are published under the unified [`all`](../../releases/tag/all) release tag so your download URLs never break.
 
