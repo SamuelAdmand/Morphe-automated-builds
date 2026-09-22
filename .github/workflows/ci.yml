@@ -2,8 +2,9 @@ name: 2. Check new patch
 permissions: write-all
 on:
   schedule:
-    - cron: "0 9 * * *"
+    - cron: "0 */2 * * *"
   workflow_dispatch:
+
     inputs:
       force_build:
         description: 'Force build all apps regardless of patch timestamp'

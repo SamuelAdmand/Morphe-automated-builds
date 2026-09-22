@@ -26,7 +26,7 @@ checker(){
 	if [ -z "$date2" ] || [ "$date1_sec" -gt "$date2_sec" ]; then
 		echo "new_patch=1" >> $GITHUB_OUTPUT
 		echo -e "\e[32mNew patch, building...\e[0m"
-	elif [ "$date1_sec" -lt "$date2_sec" ]; then
+	else
 		echo "new_patch=0" >> $GITHUB_OUTPUT
 		echo -e "\e[32mOld patch, not build.\e[0m"
 	fi
