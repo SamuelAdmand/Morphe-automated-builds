@@ -67,3 +67,35 @@ jobs:
         id: release-morphe
         if: steps.filter.outputs.should_run == 'true' && steps.check-gh-morphe.outputs.internet_error == '0'
         uses: ./.github/actions/release
+
+      - name: Update README with build timestamp
+        if: steps.filter.outputs.should_run == 'true' && steps.check-gh-morphe.outputs.internet_error == '0'
+        shell: bash
+        run: |
+          idx="${{ matrix.run }}"
+          app_name=""
+          if [ "$idx" = "1" ]; then app_name="youtube"; fi
+          if [ "$idx" = "2" ]; then app_name="reddit"; fi
+          if [ "$idx" = "3" ]; then app_name="youtube-music"; fi
+          if [ "$idx" = "4" ]; then app_name="instagram"; fi
+
+          if [ -n "$app_name" ]; then
+            python3 src/etc/update_readme_timestamp.py "$app_name"
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            for i in {1..5}; do
+              git pull --rebase origin main || true
+              if git diff --quiet README.md; then
+                echo "[*] No README changes to commit."
+                break
+              fi
+              git add README.md
+              git commit -m "chore(readme): update build timestamp for $app_name [skip ci]" || break
+              if git push origin main; then
+                echo "[+] Successfully pushed README timestamp for $app_name"
+                break
+              fi
+              sleep $(( (RANDOM % 5) + 2 ))
+            done
+          fi
+

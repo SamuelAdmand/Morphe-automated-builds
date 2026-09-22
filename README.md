@@ -21,19 +21,21 @@
 
 ## 📱 Supported Apps
 
-| App | Highlights | Latest Version | Direct Download |
-| :--- | :--- | :--- | :--- |
-| **YouTube** | Ad blocking, SponsorBlock, Return Dislike, Background Play, AMOLED | [![Release](https://img.shields.io/github/v/release/MorpheApp/morphe-patches?label=Morphe&style=flat-square)](https://github.com/MorpheApp/morphe-patches/releases) | [Jump to Downloads](#1--youtube) |
-| **YouTube Music** | Audio ad blocking, background playback, lossless audio support | [![Release](https://img.shields.io/github/v/release/MorpheApp/morphe-patches?label=Morphe&style=flat-square)](https://github.com/MorpheApp/morphe-patches/releases) | [Jump to Downloads](#2--youtube-music) |
-| **YouTube Music (Audio Whitelist)** | Renamed packages to unlock system Dolby Atmos & Dirac audio engines | [![Release](https://img.shields.io/github/v/release/MorpheApp/morphe-patches?label=Morphe&style=flat-square)](https://github.com/MorpheApp/morphe-patches/releases) | [Jump to Downloads](#-oneplus--oppo--realme-audio-enhancement) |
-| **Instagram** | Ad-free feed/reels, ghost mode, high-quality media download | [![Release](https://img.shields.io/github/v/release/crimera/piko?label=Piko&style=flat-square)](https://github.com/crimera/piko/releases) | [Jump to Downloads](#3--instagram) |
-| **Reddit** | Zero promoted ads, clean UI, video downloader, unlocked fonts | [![Release](https://img.shields.io/github/v/release/MorpheApp/morphe-patches?label=Morphe&style=flat-square)](https://github.com/MorpheApp/morphe-patches/releases) | [Jump to Downloads](#4--reddit) |
+| App | Highlights | Last Updated | Latest Version | Direct Download |
+| :--- | :--- | :--- | :--- | :--- |
+| **YouTube** | Ad blocking, SponsorBlock, Return Dislike, Background Play, AMOLED | `2026-09-22 05:52 UTC` <!-- timestamp:youtube --> | [![Release](https://img.shields.io/github/v/release/MorpheApp/morphe-patches?label=Morphe&style=flat-square)](https://github.com/MorpheApp/morphe-patches/releases) | [Jump to Downloads](#1--youtube) |
+| **YouTube Music** | Audio ad blocking, background playback, lossless audio support | `2026-09-22 05:52 UTC` <!-- timestamp:youtube-music --> | [![Release](https://img.shields.io/github/v/release/MorpheApp/morphe-patches?label=Morphe&style=flat-square)](https://github.com/MorpheApp/morphe-patches/releases) | [Jump to Downloads](#2--youtube-music) |
+| **YouTube Music (Audio Whitelist)** | Renamed packages to unlock system Dolby Atmos & Dirac audio engines | `2026-09-22 05:52 UTC` <!-- timestamp:youtube-music-whitelist --> | [![Release](https://img.shields.io/github/v/release/MorpheApp/morphe-patches?label=Morphe&style=flat-square)](https://github.com/MorpheApp/morphe-patches/releases) | [Jump to Downloads](#-oneplus--oppo--realme-audio-enhancement) |
+| **Instagram** | Ad-free feed/reels, ghost mode, high-quality media download | `2026-09-22 05:52 UTC` <!-- timestamp:instagram --> | [![Release](https://img.shields.io/github/v/release/crimera/piko?label=Piko&style=flat-square)](https://github.com/crimera/piko/releases) | [Jump to Downloads](#3--instagram) |
+| **Reddit** | Zero promoted ads, clean UI, video downloader, unlocked fonts | `2026-09-22 05:52 UTC` <!-- timestamp:reddit --> | [![Release](https://img.shields.io/github/v/release/MorpheApp/morphe-patches?label=Morphe&style=flat-square)](https://github.com/MorpheApp/morphe-patches/releases) | [Jump to Downloads](#4--reddit) |
 
 ---
 
 ## 🚀 App Directory & Download Links
 
 ### 1. 🎬 YouTube
+
+> 🕒 **Last Updated:** `2026-09-22 05:52 UTC` <!-- section-timestamp:youtube -->
 
 Customized YouTube client with all modern quality-of-life enhancements.
 
@@ -53,6 +55,8 @@ Customized YouTube client with all modern quality-of-life enhancements.
 
 ### 2. 🎵 YouTube Music
 
+> 🕒 **Last Updated:** `2026-09-22 05:52 UTC` <!-- section-timestamp:youtube-music -->
+
 Ad-free music streaming with background playback and unrestricted playback queue controls.
 
 > **Key Features:** Background audio playback with screen off, audio and video ads removed, permanent audio-only toggle, remembered repeat/shuffle states, and custom branding.
@@ -68,6 +72,8 @@ Ad-free music streaming with background playback and unrestricted playback queue
 
 ### 🎧 OnePlus / Oppo / Realme Audio Enhancement
 #### *Whitelisted Package Builds for System Dolby Atmos, Dirac & O-Reality*
+
+> 🕒 **Last Updated:** `2026-09-22 05:52 UTC` <!-- section-timestamp:youtube-music-whitelist -->
 
 > [!TIP]
 > ### 💡 Why do these builds exist?
@@ -115,6 +121,8 @@ Ad-free music streaming with background playback and unrestricted playback queue
 
 ### 3. 📸 Instagram
 
+> 🕒 **Last Updated:** `2026-09-22 05:52 UTC` <!-- section-timestamp:instagram -->
+
 Enhanced Instagram client built with the Morphe MPP pipeline.
 
 > **Key Features:** Complete ad removal (sponsored posts, stories ads, and suggested reel ads removed), Ghost Mode (view direct messages and watch stories without read receipts), direct high-resolution video and photo downloads, and full AMOLED dark mode.
@@ -126,6 +134,8 @@ Enhanced Instagram client built with the Morphe MPP pipeline.
 ---
 
 ### 4. 🤖 Reddit
+
+> 🕒 **Last Updated:** `2026-09-22 05:52 UTC` <!-- section-timestamp:reddit -->
 
 Distraction-free, high-speed Reddit experience.
 
