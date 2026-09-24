@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       app:
-        description: 'Which app do you want to patch? (All = 1, 2, 3, 4)'
+        description: 'Which app do you want to patch? (All = 1, 2, 3, 4, 5)'
         required: true
         default: 'all'
         type: choice
@@ -17,6 +17,7 @@ on:
           - 'reddit'
           - 'youtube-music'
           - 'instagram'
+          - 'gboard'
   workflow_call:
     inputs:
       app:
@@ -31,7 +32,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        run: [1, 2, 3, 4]
+        run: [1, 2, 3, 4, 5]
     steps:
       - name: Determine if step should run
         id: filter
@@ -43,6 +44,7 @@ jobs:
           if [ "$target" = "reddit" ] && [ "$idx" != "2" ]; then should_run="false"; fi
           if [ "$target" = "youtube-music" ] && [ "$idx" != "3" ]; then should_run="false"; fi
           if [ "$target" = "instagram" ] && [ "$idx" != "4" ]; then should_run="false"; fi
+          if [ "$target" = "gboard" ] && [ "$idx" != "5" ]; then should_run="false"; fi
           echo "should_run=$should_run" >> $GITHUB_OUTPUT
 
       - name: Checkout
@@ -78,6 +80,7 @@ jobs:
           if [ "$idx" = "2" ]; then app_name="reddit"; fi
           if [ "$idx" = "3" ]; then app_name="youtube-music"; fi
           if [ "$idx" = "4" ]; then app_name="instagram"; fi
+          if [ "$idx" = "5" ]; then app_name="gboard"; fi
 
           if [ -n "$app_name" ]; then
             python3 src/etc/update_readme_timestamp.py "$app_name"

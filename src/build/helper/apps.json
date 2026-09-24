@@ -68,6 +68,10 @@
 			"list_url": "https://www.apkmirror.com/uploads/?appcategory=youtube-music",
 			"example_url": "https://www.apkmirror.com/apk/google-inc/youtube-music/youtube-music-9-17-51-release/"
 		},
+		"com.google.android.inputmethod.latin": {
+			"list_url": "https://www.apkmirror.com/uploads/?appcategory=gboard",
+			"example_url": "https://www.apkmirror.com/apk/google-inc/gboard-the-google-keyboard/gboard-the-google-keyboard-18-0-3-954559732-release/"
+		},
 		"com.google.android.youtube": {
 			"list_url": "https://www.apkmirror.com/uploads/?appcategory=youtube",
 			"example_url": "https://www.apkmirror.com/apk/google-inc/youtube/youtube-21-18-168-release/"

@@ -29,6 +29,7 @@ jobs:
     outputs:
       check_morphe: ${{ steps.check-morphe.outputs.new_patch }}
       check_instagram: ${{ steps.check-instagram.outputs.new_patch }}
+      check_gboard: ${{ steps.check-gboard.outputs.new_patch }}
       force_run: ${{ github.event_name == 'push' || github.event.inputs.force_build == 'true' }}
     steps:
       - name: Checkout
@@ -48,10 +49,15 @@ jobs:
         if: steps.check-gh.outputs.internet_error == '0'
         run: bash src/etc/ci.sh crimera/piko latest instagram-arm64-v8a-morphe.apk
 
+      - name: Check new patch Gboard (Gboard-patches)
+        id: check-gboard
+        if: steps.check-gh.outputs.internet_error == '0'
+        run: bash src/etc/ci.sh jasonwu1994/Gboard-patches latest gboard-arm64-v8a-morphe.apk
+
   patch_apps:
     name: Trigger Build Pipeline
     needs: check
-    if: ${{ needs.check.outputs.force_run == 'true' || needs.check.outputs.check_morphe == '1' || needs.check.outputs.check_instagram == '1' }}
+    if: ${{ needs.check.outputs.force_run == 'true' || needs.check.outputs.check_morphe == '1' || needs.check.outputs.check_instagram == '1' || needs.check.outputs.check_gboard == '1' }}
     uses: ./.github/workflows/manual-patch.yml
     secrets: inherit
     with:

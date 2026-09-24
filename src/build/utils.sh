@@ -203,6 +203,7 @@ detect_version() {
 		  /Compatible versions:/ { if (found) printing = 1; next }
 		  printing && $1 ~ /^[0-9]+\./ { print $1 }
 		' | sort -V | tail -n1)
+	    version=$(echo "$version" | grep -oP '^\d+(\.\d+)+' || echo "$version")
 	  fi
 	fi
 }

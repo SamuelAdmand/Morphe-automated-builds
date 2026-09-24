@@ -28,6 +28,7 @@
 | **YouTube Music (Audio Whitelist)** | Renamed packages to unlock system Dolby Atmos & Dirac audio engines | `2026-09-22 05:52 UTC` <!-- timestamp:youtube-music-whitelist --> | [![Release](https://img.shields.io/github/v/release/MorpheApp/morphe-patches?label=Morphe&style=flat-square)](https://github.com/MorpheApp/morphe-patches/releases) | [Jump to Downloads](#-oneplus--oppo--realme-audio-enhancement) |
 | **Instagram** | Ad-free feed/reels, ghost mode, high-quality media download | `2026-09-22 05:52 UTC` <!-- timestamp:instagram --> | [![Release](https://img.shields.io/github/v/release/crimera/piko?label=Piko&style=flat-square)](https://github.com/crimera/piko/releases) | [Jump to Downloads](#3--instagram) |
 | **Reddit** | Zero promoted ads, clean UI, video downloader, unlocked fonts | `2026-09-22 06:01 UTC` <!-- timestamp:reddit --> | [![Release](https://img.shields.io/github/v/release/MorpheApp/morphe-patches?label=Morphe&style=flat-square)](https://github.com/MorpheApp/morphe-patches/releases) | [Jump to Downloads](#4--reddit) |
+| **Gboard** | Web Clipboard, long-press editing, symbols, calculator, custom themes, feature unlocks | `2026-09-22 05:52 UTC` <!-- timestamp:gboard --> | [![Release](https://img.shields.io/github/v/release/jasonwu1994/Gboard-patches?label=Gboard-patches&style=flat-square)](https://github.com/jasonwu1994/Gboard-patches/releases) | [Jump to Downloads](#5--gboard) |
 
 ---
 
@@ -35,7 +36,7 @@
 
 ### 1. 🎬 YouTube
 
-> 🕒 **Last Updated:** `2026-09-22 05:52 UTC` <!-- section-timestamp:youtube -->
+> 🕒 **Last Updated:** `2026-09-24 17:45 UTC` <!-- section-timestamp:youtube -->
 
 Customized YouTube client with all modern quality-of-life enhancements.
 
@@ -55,7 +56,7 @@ Customized YouTube client with all modern quality-of-life enhancements.
 
 ### 2. 🎵 YouTube Music
 
-> 🕒 **Last Updated:** `2026-09-22 05:52 UTC` <!-- section-timestamp:youtube-music -->
+> 🕒 **Last Updated:** `2026-09-24 17:45 UTC` <!-- section-timestamp:youtube-music -->
 
 Ad-free music streaming with background playback and unrestricted playback queue controls.
 
@@ -73,7 +74,7 @@ Ad-free music streaming with background playback and unrestricted playback queue
 ### 🎧 OnePlus / Oppo / Realme Audio Enhancement
 #### *Whitelisted Package Builds for System Dolby Atmos, Dirac & O-Reality*
 
-> 🕒 **Last Updated:** `2026-09-22 05:52 UTC` <!-- section-timestamp:youtube-music-whitelist -->
+> 🕒 **Last Updated:** `2026-09-24 17:45 UTC` <!-- section-timestamp:youtube-music-whitelist -->
 
 > [!TIP]
 > ### 💡 Why do these builds exist?
@@ -121,7 +122,7 @@ Ad-free music streaming with background playback and unrestricted playback queue
 
 ### 3. 📸 Instagram
 
-> 🕒 **Last Updated:** `2026-09-22 05:52 UTC` <!-- section-timestamp:instagram -->
+> 🕒 **Last Updated:** `2026-09-24 17:45 UTC` <!-- section-timestamp:instagram -->
 
 Enhanced Instagram client built with the Morphe MPP pipeline.
 
@@ -148,6 +149,21 @@ Distraction-free, high-speed Reddit experience.
 
 ---
 
+### 5. ⌨️ Gboard
+
+> 🕒 **Last Updated:** `2026-09-24 17:45 UTC` <!-- section-timestamp:gboard -->
+
+Patched Google Keyboard (Gboard) powered by **[jasonwu1994/Gboard-patches](https://github.com/jasonwu1994/Gboard-patches)** with practical productivity upgrades, developer tools, custom themes, and Taiwan-focused Zhuyin enhancements.
+
+> **Key Features:** Web Clipboard (LAN PC-to-phone clipboard sync), Long-Press Editing Shortcuts (Select All, Undo, Cut, Copy, Paste, Redo), Toolbar Editing Buttons, Inline Simple Calculator, Custom Theme ZIP imports, Incognito Mode Toggle, Custom Symbols tab, and Gboard hidden feature unlocks (AI Writing Tools, Advanced Voice Typing, OCR / Scan Text, Key Shape Selection, Flag Editor & Developer Options).
+
+| Architecture / Variant | Direct APK Download | Format / Source |
+| :--- | :--- | :--- |
+| **Arm64-v8a (Standalone APK)** | [📥 gboard-arm64-v8a-morphe.apk](../../releases/download/all/gboard-arm64-v8a-morphe.apk) | Standalone APK (from official APK release) |
+| **Arm64-v8a (From Bundle)** | [📥 gboard-bundle-arm64-v8a-morphe.apk](../../releases/download/all/gboard-bundle-arm64-v8a-morphe.apk) | Standalone APK (merged from official App Bundle) |
+
+---
+
 ## 🔑 Prerequisites & MicroG
 
 If you use **YouTube** or **YouTube Music**, Google services authentication requires a lightweight GmsCore provider.
@@ -168,7 +184,7 @@ If you use **YouTube** or **YouTube Music**, Google services authentication requ
 ```mermaid
 flowchart LR
     A[30-Min Cron / Push] --> B{Check Upstream Releases}
-    B -->|New Morphe / Piko Patch| C[Download Base Clean APK]
+    B -->|New Morphe / Piko / Gboard Patch| C[Download Base Clean APK / Bundle]
     B -->|No Changes| D[Skip Build]
     C --> E[Morphe Desktop Patcher]
     E --> F[Inject Custom Package Whitelists]
@@ -176,9 +192,9 @@ flowchart LR
     G --> H[Publish to Release 'all']
 ```
 
-- **Real-Time Automated Checks:** Automated GitHub Actions monitor upstream `MorpheApp` and `crimera` repositories every 30 minutes for new patches and rebuilds automatically.
+- **Real-Time Automated Checks:** Automated GitHub Actions monitor upstream `MorpheApp`, `crimera`, and `jasonwu1994` repositories every 30 minutes for new patches and rebuilds automatically.
 
-- **Safe & Clean:** Source APKs are fetched directly from trusted APKMirror mirrors and verified with clean checksums before patching.
+- **Safe & Clean:** Source APKs and App Bundles are fetched directly from trusted APKMirror mirrors and verified with clean checksums before patching.
 - **Single Rolling Release:** All builds are published under the unified [`all`](../../releases/tag/all) release tag so your download URLs never break.
 
 ---
@@ -187,6 +203,7 @@ flowchart LR
 
 - **[Morphe](https://github.com/MorpheApp)** — Modern Android bytecode patching engine, desktop CLI, and core patches.
 - **[Piko](https://github.com/crimera/piko)** — Morphe-compatible patch bundle for Instagram.
+- **[Gboard Patches](https://github.com/jasonwu1994/Gboard-patches)** — Morphe-compatible patch bundle for Gboard by [jasonwu1994](https://github.com/jasonwu1994).
 - **[MicroG](https://github.com/MorpheApp/MicroG-RE)** — Open-source Google Play Services re-implementation.
 
 ---

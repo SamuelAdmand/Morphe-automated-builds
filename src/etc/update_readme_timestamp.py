@@ -27,7 +27,7 @@ def update_readme_timestamp(app_id: str, readme_path: Path) -> bool:
     Search and replace the timestamp comments for the target app in README.md.
 
     Args:
-        app_id: Target app identifier (youtube, reddit, youtube-music, instagram, all).
+        app_id: Target app identifier (youtube, reddit, youtube-music, instagram, gboard, all).
         readme_path: Path to the README.md file.
 
     Returns:
@@ -43,7 +43,7 @@ def update_readme_timestamp(app_id: str, readme_path: Path) -> bool:
 
     targets = [app_id]
     if app_id == "all":
-        targets = ["youtube", "reddit", "youtube-music", "youtube-music-whitelist", "instagram"]
+        targets = ["youtube", "reddit", "youtube-music", "youtube-music-whitelist", "instagram", "gboard"]
     elif app_id == "youtube-music":
         targets = ["youtube-music", "youtube-music-whitelist"]
 
@@ -76,7 +76,7 @@ def update_readme_timestamp(app_id: str, readme_path: Path) -> bool:
 def main() -> None:
     """
     CLI entry point.
-    Expects argument: <app_id> (e.g. youtube, reddit, youtube-music, instagram, all)
+    Expects argument: <app_id> (e.g. youtube, reddit, youtube-music, instagram, gboard, all)
     """
     if len(sys.argv) < 2:
         print("Usage: python update_readme_timestamp.py <app_id> [path_to_readme]")

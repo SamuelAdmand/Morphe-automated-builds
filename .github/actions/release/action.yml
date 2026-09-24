@@ -15,6 +15,7 @@ runs:
         [Revanced Extended anddea](https://github.com/anddea/revanced-patches/releases)
         [Revanced Extended for Android 6 & 7](https://github.com/kitadai31/revanced-patches-android6-7/releases)
         [Revanced Extended For Android 5:](https://github.com/d4n3436/revanced-patches-android5/releases)
+        [Gboard Patches](https://github.com/jasonwu1994/Gboard-patches/releases)
         "> ${{ github.workspace }}-CHANGELOG.txt
     - name: Release
       uses: ncipollo/release-action@v1.21.0
