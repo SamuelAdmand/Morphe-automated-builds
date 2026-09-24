@@ -28,7 +28,7 @@
 | **YouTube Music (Audio Whitelist)** | Renamed packages to unlock system Dolby Atmos & Dirac audio engines | `2026-09-22 05:52 UTC` <!-- timestamp:youtube-music-whitelist --> | [![Release](https://img.shields.io/github/v/release/MorpheApp/morphe-patches?label=Morphe&style=flat-square)](https://github.com/MorpheApp/morphe-patches/releases) | [Jump to Downloads](#-oneplus--oppo--realme-audio-enhancement) |
 | **Instagram** | Ad-free feed/reels, ghost mode, high-quality media download | `2026-09-22 05:52 UTC` <!-- timestamp:instagram --> | [![Release](https://img.shields.io/github/v/release/crimera/piko?label=Piko&style=flat-square)](https://github.com/crimera/piko/releases) | [Jump to Downloads](#3--instagram) |
 | **Reddit** | Zero promoted ads, clean UI, video downloader, unlocked fonts | `2026-09-24 17:54 UTC` <!-- timestamp:reddit --> | [![Release](https://img.shields.io/github/v/release/MorpheApp/morphe-patches?label=Morphe&style=flat-square)](https://github.com/MorpheApp/morphe-patches/releases) | [Jump to Downloads](#4--reddit) |
-| **Gboard** | Web Clipboard, long-press editing, symbols, calculator, custom themes, feature unlocks | `2026-09-22 05:52 UTC` <!-- timestamp:gboard --> | [![Release](https://img.shields.io/github/v/release/jasonwu1994/Gboard-patches?label=Gboard-patches&style=flat-square)](https://github.com/jasonwu1994/Gboard-patches/releases) | [Jump to Downloads](#5--gboard) |
+| **Gboard** | Web Clipboard, long-press editing, symbols, calculator, custom themes, feature unlocks | `2026-09-24 17:58 UTC` <!-- timestamp:gboard --> | [![Release](https://img.shields.io/github/v/release/jasonwu1994/Gboard-patches?label=Gboard-patches&style=flat-square)](https://github.com/jasonwu1994/Gboard-patches/releases) | [Jump to Downloads](#5--gboard) |
 
 ---
 
@@ -151,16 +151,15 @@ Distraction-free, high-speed Reddit experience.
 
 ### 5. ⌨️ Gboard
 
-> 🕒 **Last Updated:** `2026-09-24 17:45 UTC` <!-- section-timestamp:gboard -->
+> 🕒 **Last Updated:** `2026-09-24 17:58 UTC` <!-- section-timestamp:gboard -->
 
 Patched Google Keyboard (Gboard) powered by **[jasonwu1994/Gboard-patches](https://github.com/jasonwu1994/Gboard-patches)** with practical productivity upgrades, developer tools, custom themes, and Taiwan-focused Zhuyin enhancements.
 
 > **Key Features:** Web Clipboard (LAN PC-to-phone clipboard sync), Long-Press Editing Shortcuts (Select All, Undo, Cut, Copy, Paste, Redo), Toolbar Editing Buttons, Inline Simple Calculator, Custom Theme ZIP imports, Incognito Mode Toggle, Custom Symbols tab, and Gboard hidden feature unlocks (AI Writing Tools, Advanced Voice Typing, OCR / Scan Text, Key Shape Selection, Flag Editor & Developer Options).
 
-| Architecture / Variant | Direct APK Download | Format / Source |
+| Architecture | Direct APK Download | Format |
 | :--- | :--- | :--- |
-| **Arm64-v8a (Standalone APK)** | [📥 gboard-arm64-v8a-morphe.apk](../../releases/download/all/gboard-arm64-v8a-morphe.apk) | Standalone APK (from official APK release) |
-| **Arm64-v8a (From Bundle)** | [📥 gboard-bundle-arm64-v8a-morphe.apk](../../releases/download/all/gboard-bundle-arm64-v8a-morphe.apk) | Standalone APK (merged from official App Bundle) |
+| **Arm64-v8a** | [📥 gboard-arm64-v8a-morphe.apk](../../releases/download/all/gboard-arm64-v8a-morphe.apk) | Standalone APK (patched from official App Bundle) |
 
 ---
 

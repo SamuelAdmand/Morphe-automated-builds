@@ -88,14 +88,10 @@ morphe_dl(){
 	# Patch Gboard (Gboard-patches):
 	dl_gh "morphe-desktop" "MorpheApp" "latest"
 	dl_gh "Gboard-patches" "jasonwu1994" "latest"
-	# Standalone APK (arm64-v8a)
 	get_patches_key "gboard-morphe"
-	get_apk "com.google.android.inputmethod.latin" "gboard-arm64-v8a" "apk" "arm64-v8a"
+	# Download Gboard bundle (.apkm), merge splits via APKEditor, and patch to standalone APK
+	get_apk "com.google.android.inputmethod.latin" "gboard-arm64-v8a" "bundle" "arm64-v8a"
 	patch "gboard-arm64-v8a" "morphe"
-	# Bundle (arm64-v8a)
-	get_patches_key "gboard-morphe"
-	get_apk "com.google.android.inputmethod.latin" "gboard-bundle-arm64-v8a" "bundle" "arm64-v8a"
-	patch "gboard-bundle-arm64-v8a" "morphe"
 }
 case "$1" in
     1)
