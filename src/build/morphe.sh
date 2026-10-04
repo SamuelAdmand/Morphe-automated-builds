@@ -18,6 +18,17 @@ morphe_dl(){
 		get_patches_key "youtube-morphe"
 		split_arch "youtube" "morphe"
 	done
+	# Audio Whitelist Variants (OnePlus / Oppo / Realme)
+	for pkg_suffix in "qqmusic" "kugou-lite" "kugou" "kugou-viper"; do
+		# Arm64-v8a (archs[0])
+		i=0
+		get_patches_key "youtube-morphe-$pkg_suffix"
+		split_arch "youtube" "$pkg_suffix-morphe"
+		# Armeabi-v7a (archs[1])
+		i=1
+		get_patches_key "youtube-morphe-$pkg_suffix"
+		split_arch "youtube" "$pkg_suffix-morphe"
+	done
 	# Patch Youtube Arm64-v8a
 	#get_patches_key "youtube-morphe"
 	#get_apk "com.google.android.youtube" "youtube" "bundle_extract"

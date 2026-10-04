@@ -24,6 +24,7 @@
 | App | Base App Version | Patch Version | Last Updated | Highlights | Direct Download |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **YouTube** | `v21.16.256` <!-- app-version:youtube --> | `Morphe v1.45.0` <!-- patch-version:youtube --> | `2026-10-04 07:58 UTC` <!-- timestamp:youtube --> | Ad blocking, SponsorBlock, Return Dislike, Background Play, AMOLED | [Jump to Downloads](#1--youtube) |
+| **YouTube (Audio Whitelist)** | `v21.16.256` <!-- app-version:youtube-whitelist --> | `Morphe v1.45.0` <!-- patch-version:youtube-whitelist --> | `2026-10-04 07:58 UTC` <!-- timestamp:youtube-whitelist --> | Renamed packages to unlock system Dolby Atmos & Dirac audio engines | [Jump to Downloads](#-oneplus--oppo--realme-audio-enhancement) |
 | **YouTube Music** | `v9.15.51` <!-- app-version:youtube-music --> | `Morphe v1.45.0` <!-- patch-version:youtube-music --> | `2026-10-04 08:02 UTC` <!-- timestamp:youtube-music --> | Audio ad blocking, background playback, lossless audio support | [Jump to Downloads](#2--youtube-music) |
 | **YouTube Music (Audio Whitelist)** | `v9.15.51` <!-- app-version:youtube-music-whitelist --> | `Morphe v1.45.0` <!-- patch-version:youtube-music-whitelist --> | `2026-10-04 08:02 UTC` <!-- timestamp:youtube-music-whitelist --> | Renamed packages to unlock system Dolby Atmos & Dirac audio engines | [Jump to Downloads](#-oneplus--oppo--realme-audio-enhancement) |
 | **Instagram** | `v439.0.0.37.89` <!-- app-version:instagram --> | `Piko v3.9.0` <!-- patch-version:instagram --> | `2026-10-04 07:55 UTC` <!-- timestamp:instagram --> | Ad-free feed/reels, ghost mode, high-quality media download | [Jump to Downloads](#3--instagram) |
@@ -74,18 +75,56 @@ Ad-free music streaming with background playback and unrestricted playback queue
 ### 🎧 OnePlus / Oppo / Realme Audio Enhancement
 #### *Whitelisted Package Builds for System Dolby Atmos, Dirac & O-Reality*
 
+<<<<<<< HEAD
 > 🕒 **Last Updated:** `2026-10-04 08:02 UTC` <!-- section-timestamp:youtube-music-whitelist --> • 📦 **Base App Version:** `v9.15.51` <!-- section-app-version:youtube-music-whitelist --> • 🧩 **Patch Version:** `Morphe v1.45.0` <!-- section-patch-version:youtube-music-whitelist -->
+=======
+> 🕒 **Last Updated:** `2026-10-02 10:50 UTC` <!-- section-timestamp:youtube-music-whitelist --> • 📦 **Base App Version:** `v21.16.256` / `v9.15.51` • 🧩 **Patch Version:** `Morphe v1.45.0` <!-- section-patch-version:youtube-whitelist -->
+>>>>>>> e7cd905 (feat(youtube): add OnePlus/Oppo audio whitelist package variants)
 
 > [!TIP]
 > ### 💡 Why do these builds exist?
 > On **OnePlus**, **Oppo**, **Realme**, and **ColorOS / OxygenOS** devices, hardware-level audio processing (such as **Dolby Atmos**, **Dirac Audio Tuner**, and **O-Reality Audio Equalizers**) is hard-coded to only trigger when the active media player matches an internal system whitelist.
 >
-> Standard YouTube Music does **not** trigger these hardware DSPs.
+> Standard YouTube and YouTube Music do **not** trigger these hardware DSPs.
 > 
-> These specialized builds use Morphe's app cloning engine to re-target YouTube Music under whitelisted package identities. Once installed, your device's audio settings immediately recognize the app, providing **full system equalizer effects, spatial audio, and Dolby Atmos audio enhancements!**
+> These specialized builds use Morphe's app cloning engine to re-target **YouTube** and **YouTube Music** under whitelisted package identities. Once installed, your device's audio settings immediately recognize the app, providing **full system equalizer effects, spatial audio, and Dolby Atmos audio enhancements!**
 
 <details open>
-<summary><b>🔥 Click to view Whitelisted Package Downloads</b></summary>
+<summary><b>🎬 Click to view YouTube Whitelisted Package Downloads</b></summary>
+<br>
+
+#### 1. QQ Music Identity (`com.tencent.qqmusic`)
+*Triggers Dirac Audio & Dolby Atmos on virtually all ColorOS & OxygenOS releases.*
+| Architecture | Direct APK Download |
+| :--- | :--- |
+| **Arm64-v8a** | [📥 youtube-arm64-v8a-qqmusic-morphe.apk](../../releases/download/all/youtube-arm64-v8a-qqmusic-morphe.apk) |
+| **Armeabi-v7a** | [📥 youtube-armeabi-v7a-qqmusic-morphe.apk](../../releases/download/all/youtube-armeabi-v7a-qqmusic-morphe.apk) |
+
+#### 2. Kugou Lite Identity (`com.kugou.android.lite`)
+*Secondary audio whitelist profile with low-overhead system equalizer hooks.*
+| Architecture | Direct APK Download |
+| :--- | :--- |
+| **Arm64-v8a** | [📥 youtube-arm64-v8a-kugou-lite-morphe.apk](../../releases/download/all/youtube-arm64-v8a-kugou-lite-morphe.apk) |
+| **Armeabi-v7a** | [📥 youtube-armeabi-v7a-kugou-lite-morphe.apk](../../releases/download/all/youtube-armeabi-v7a-kugou-lite-morphe.apk) |
+
+#### 3. Kugou Standard Identity (`com.kugou.android`)
+*Primary Kugou audio whitelist profile for ColorOS, OxygenOS, and RealmeUI.*
+| Architecture | Direct APK Download |
+| :--- | :--- |
+| **Arm64-v8a** | [📥 youtube-arm64-v8a-kugou-morphe.apk](../../releases/download/all/youtube-arm64-v8a-kugou-morphe.apk) |
+| **Armeabi-v7a** | [📥 youtube-armeabi-v7a-kugou-morphe.apk](../../releases/download/all/youtube-armeabi-v7a-kugou-morphe.apk) |
+
+#### 4. Kugou Viper Identity (`com.kugou.viper`)
+*Targeted for devices supporting Viper / Dirac HD hardware sound processing.*
+| Architecture | Direct APK Download |
+| :--- | :--- |
+| **Arm64-v8a** | [📥 youtube-arm64-v8a-kugou-viper-morphe.apk](../../releases/download/all/youtube-arm64-v8a-kugou-viper-morphe.apk) |
+| **Armeabi-v7a** | [📥 youtube-armeabi-v7a-kugou-viper-morphe.apk](../../releases/download/all/youtube-armeabi-v7a-kugou-viper-morphe.apk) |
+
+</details>
+
+<details open>
+<summary><b>🎵 Click to view YouTube Music Whitelisted Package Downloads</b></summary>
 <br>
 
 #### 1. QQ Music Identity (`com.tencent.qqmusic`)

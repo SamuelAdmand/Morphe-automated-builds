@@ -4,17 +4,28 @@ from typing import Dict, List
 
 # Target mappings: Maps primary app_id to all relevant comment markers
 TARGET_MAPPINGS: Dict[str, List[str]] = {
-    "youtube": ["youtube"],
+    "youtube": ["youtube", "youtube-whitelist"],
+    "youtube-whitelist": ["youtube-whitelist"],
     "youtube-music": ["youtube-music", "youtube-music-whitelist"],
+    "youtube-music-whitelist": ["youtube-music-whitelist"],
     "reddit": ["reddit"],
     "instagram": ["instagram"],
     "gboard": ["gboard"],
-    "all": ["youtube", "youtube-music", "youtube-music-whitelist", "instagram", "reddit", "gboard"],
+    "all": [
+        "youtube",
+        "youtube-whitelist",
+        "youtube-music",
+        "youtube-music-whitelist",
+        "instagram",
+        "reddit",
+        "gboard",
+    ],
 }
 
 # Display names for patch providers
 PATCH_PROVIDERS: Dict[str, str] = {
     "youtube": "Morphe",
+    "youtube-whitelist": "Morphe",
     "youtube-music": "Morphe",
     "youtube-music-whitelist": "Morphe",
     "reddit": "Morphe",
