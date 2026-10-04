@@ -738,13 +738,53 @@ telegram_dl() {
 
 #################################################
 
+#################################################
+
+# Record build metadata for README and release info
+record_build_metadata() {
+	local app_name=$1
+	local pkg_name=${2:-}
+	mkdir -p ./release/metadata
+	local patch_file patch_version app_version
+	patch_file=$(ls *.mpp 2>/dev/null | head -1)
+	patch_version=$(echo "$patch_file" | grep -oP '\d+(\.\d+)+' | head -1)
+	app_version="${version:-}"
+
+	# Try extracting directly from APK using aapt if available
+	local aapt_bin
+	aapt_bin=$(command -v aapt || find "${ANDROID_HOME:-/usr/local/lib/android/sdk}/build-tools" -name aapt 2>/dev/null | head -1)
+	if [ -n "$aapt_bin" ]; then
+		local target_apk=""
+		if [ -f "./download/$app_name.apk" ]; then
+			target_apk="./download/$app_name.apk"
+		elif [ -f "./release/$app_name-morphe.apk" ]; then
+			target_apk="./release/$app_name-morphe.apk"
+		fi
+		if [ -n "$target_apk" ]; then
+			local dump_ver
+			dump_ver=$("$aapt_bin" dump badging "$target_apk" 2>/dev/null | sed -n "s/.*versionName='\([^']*\)'.*/\1/p")
+			[ -n "$dump_ver" ] && app_version="$dump_ver"
+		fi
+	fi
+
+	cat <<EOF > "./release/metadata/$app_name.env"
+APP_NAME="$app_name"
+PKG_NAME="$pkg_name"
+APP_VERSION="$app_version"
+PATCH_VERSION="$patch_version"
+BUILD_TIME="$(date -u +"%Y-%m-%d %H:%M UTC")"
+EOF
+	green_log "[+] Recorded metadata for $app_name: App Version=${app_version:-unknown}, Patch Version=${patch_version:-unknown}"
+}
+
 # Patching apps with CLI:
 patch() {
 	green_log "[+] Patching $1:"
 	if [ -f "./download/$1.apk" ]; then
+		record_build_metadata "$1"
 		echo "Patching with Morphe"
 		unset CI GITHUB_ACTION GITHUB_ACTIONS GITHUB_ACTOR GITHUB_ENV GITHUB_EVENT_NAME GITHUB_EVENT_PATH GITHUB_HEAD_REF GITHUB_JOB GITHUB_REF GITHUB_REPOSITORY GITHUB_RUN_ID GITHUB_RUN_NUMBER GITHUB_SHA GITHUB_WORKFLOW GITHUB_WORKSPACE RUN_ID RUN_NUMBER
-		eval java -jar morphe-desktop-*.jar patch -p *.mpp --options-file ./src/options/$2.json --out=./release/$1-$2.apk$excludePatches$includePatches --keystore=./src/keystore/morphe.keystore --force --continue-on-error ./download/$1.apk
+		eval java -jar morphe-desktop-*.jar patch -p *.mpp --options-file ./src/options/$2.json --out=./release/$1-$2.apk $excludePatches$includePatches --keystore=./src/keystore/morphe.keystore --force --continue-on-error ./download/$1.apk
 		unset version
 		unset lock_version
 		unset excludePatches

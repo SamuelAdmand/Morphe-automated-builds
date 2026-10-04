@@ -70,7 +70,7 @@ jobs:
         if: steps.filter.outputs.should_run == 'true' && steps.check-gh-morphe.outputs.internet_error == '0'
         uses: ./.github/actions/release
 
-      - name: Update README with build timestamp
+      - name: Update README with build metadata
         if: steps.filter.outputs.should_run == 'true' && steps.check-gh-morphe.outputs.internet_error == '0'
         shell: bash
         run: |
@@ -83,22 +83,44 @@ jobs:
           if [ "$idx" = "5" ]; then app_name="gboard"; fi
 
           if [ -n "$app_name" ]; then
-            python3 src/etc/update_readme_timestamp.py "$app_name"
+            meta_file="./release/metadata/$app_name.env"
+            app_ver=""
+            patch_ver=""
+            if [ -f "$meta_file" ]; then
+              # shellcheck disable=SC1090
+              source "$meta_file"
+              app_ver="${APP_VERSION:-}"
+              patch_ver="${PATCH_VERSION:-}"
+            fi
+
+            args=("$app_name")
+            if [ -n "$app_ver" ]; then
+              args+=(--app-version "$app_ver")
+            fi
+            if [ -n "$patch_ver" ]; then
+              args+=(--patch-version "$patch_ver")
+            fi
+
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            for i in {1..5}; do
-              git pull --rebase origin main || true
+
+            for i in {1..10}; do
+              git fetch origin main
+              git reset --hard origin/main
+              python3 src/etc/update_readme_timestamp.py "${args[@]}"
               if git diff --quiet README.md; then
-                echo "[*] No README changes to commit."
+                echo "[*] No README changes needed for $app_name."
                 break
               fi
               git add README.md
-              git commit -m "chore(readme): update build timestamp for $app_name [skip ci]" || break
-              if git push origin main; then
-                echo "[+] Successfully pushed README timestamp for $app_name"
-                break
+              if git commit -m "chore(readme): update build metadata for $app_name [skip ci]"; then
+                if git push origin main; then
+                  echo "[+] Successfully pushed README metadata for $app_name"
+                  break
+                fi
               fi
-              sleep $(( (RANDOM % 5) + 2 ))
+              echo "[!] Push collision detected for $app_name, retrying ($i/10)..."
+              sleep $(( (RANDOM % 8) + 3 ))
             done
           fi
 

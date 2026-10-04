@@ -11,9 +11,11 @@ morphe_dl(){
 	# Patch YouTube:
 	get_patches_key "youtube-morphe"
 	get_apk "com.google.android.youtube" "youtube" "apk"
+	record_build_metadata "youtube" "com.google.android.youtube"
 	patch "youtube" "morphe"
 	# Remove unused architectures
 	for i in {0..3}; do
+		get_patches_key "youtube-morphe"
 		split_arch "youtube" "morphe"
 	done
 	# Patch Youtube Arm64-v8a
@@ -40,6 +42,7 @@ morphe_dl(){
 	get_patches_key "reddit-morphe"
 	get_apk "com.reddit.frontpage" "reddit" "bundle_extract"
 	split_editor "reddit" "reddit"
+	record_build_metadata "reddit" "com.reddit.frontpage"
 	patch "reddit" "morphe"
 	# Patch Arm64-v8a:
 	split_editor "reddit" "reddit-arm64-v8a" "exclude" "split_config.armeabi_v7a split_config.x86_64 split_config.mdpi split_config.ldpi split_config.hdpi split_config.xhdpi split_config.xxhdpi split_config.tvdpi"
@@ -52,6 +55,7 @@ morphe_dl(){
 	# Arm64-v8a
 	get_patches_key "youtube-music-morphe"
 	get_apk "com.google.android.apps.youtube.music" "youtube-music-arm64-v8a" "apk" "arm64-v8a"
+	record_build_metadata "youtube-music" "com.google.android.apps.youtube.music"
 	patch "youtube-music-arm64-v8a" "morphe"
 	# Audio Whitelist Variants (OnePlus / Oppo)
 	for pkg_suffix in "qqmusic" "kugou-lite" "kugou" "kugou-viper"; do
@@ -82,6 +86,7 @@ morphe_dl(){
 	dl_gh "piko" "crimera" "latest"
 	get_patches_key "instagram-piko"
 	get_apk "com.instagram.android" "instagram-arm64-v8a" "bundle" "arm64-v8a" "120-640dpi" "Android 9.0+"
+	record_build_metadata "instagram" "com.instagram.android"
 	patch "instagram-arm64-v8a" "morphe"
 }
 5() {
@@ -91,6 +96,7 @@ morphe_dl(){
 	get_patches_key "gboard-morphe"
 	# Download Gboard bundle (.apkm), merge splits via APKEditor, and patch to standalone APK
 	get_apk "com.google.android.inputmethod.latin" "gboard-arm64-v8a" "bundle" "arm64-v8a"
+	record_build_metadata "gboard" "com.google.android.inputmethod.latin"
 	patch "gboard-arm64-v8a" "morphe"
 }
 case "$1" in

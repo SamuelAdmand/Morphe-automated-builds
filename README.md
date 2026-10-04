@@ -21,14 +21,14 @@
 
 ## 📱 Supported Apps
 
-| App | Highlights | Last Updated | Latest Version | Direct Download |
-| :--- | :--- | :--- | :--- | :--- |
-| **YouTube** | Ad blocking, SponsorBlock, Return Dislike, Background Play, AMOLED | `2026-09-22 05:52 UTC` <!-- timestamp:youtube --> | [![Release](https://img.shields.io/github/v/release/MorpheApp/morphe-patches?label=Morphe&style=flat-square)](https://github.com/MorpheApp/morphe-patches/releases) | [Jump to Downloads](#1--youtube) |
-| **YouTube Music** | Audio ad blocking, background playback, lossless audio support | `2026-09-22 05:52 UTC` <!-- timestamp:youtube-music --> | [![Release](https://img.shields.io/github/v/release/MorpheApp/morphe-patches?label=Morphe&style=flat-square)](https://github.com/MorpheApp/morphe-patches/releases) | [Jump to Downloads](#2--youtube-music) |
-| **YouTube Music (Audio Whitelist)** | Renamed packages to unlock system Dolby Atmos & Dirac audio engines | `2026-09-22 05:52 UTC` <!-- timestamp:youtube-music-whitelist --> | [![Release](https://img.shields.io/github/v/release/MorpheApp/morphe-patches?label=Morphe&style=flat-square)](https://github.com/MorpheApp/morphe-patches/releases) | [Jump to Downloads](#-oneplus--oppo--realme-audio-enhancement) |
-| **Instagram** | Ad-free feed/reels, ghost mode, high-quality media download | `2026-09-22 05:52 UTC` <!-- timestamp:instagram --> | [![Release](https://img.shields.io/github/v/release/crimera/piko?label=Piko&style=flat-square)](https://github.com/crimera/piko/releases) | [Jump to Downloads](#3--instagram) |
-| **Reddit** | Zero promoted ads, clean UI, video downloader, unlocked fonts | `2026-09-24 17:54 UTC` <!-- timestamp:reddit --> | [![Release](https://img.shields.io/github/v/release/MorpheApp/morphe-patches?label=Morphe&style=flat-square)](https://github.com/MorpheApp/morphe-patches/releases) | [Jump to Downloads](#4--reddit) |
-| **Gboard** | Web Clipboard, long-press editing, symbols, calculator, custom themes, feature unlocks | `2026-10-02 10:43 UTC` <!-- timestamp:gboard --> | [![Release](https://img.shields.io/github/v/release/jasonwu1994/Gboard-patches?label=Gboard-patches&style=flat-square)](https://github.com/jasonwu1994/Gboard-patches/releases) | [Jump to Downloads](#5--gboard) |
+| App | Base App Version | Patch Version | Last Updated | Highlights | Direct Download |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **YouTube** | `v21.16.256` <!-- app-version:youtube --> | `Morphe v1.45.0` <!-- patch-version:youtube --> | `2026-10-02 10:48 UTC` <!-- timestamp:youtube --> | Ad blocking, SponsorBlock, Return Dislike, Background Play, AMOLED | [Jump to Downloads](#1--youtube) |
+| **YouTube Music** | `v9.15.51` <!-- app-version:youtube-music --> | `Morphe v1.45.0` <!-- patch-version:youtube-music --> | `2026-10-02 10:50 UTC` <!-- timestamp:youtube-music --> | Audio ad blocking, background playback, lossless audio support | [Jump to Downloads](#2--youtube-music) |
+| **YouTube Music (Audio Whitelist)** | `v9.15.51` <!-- app-version:youtube-music-whitelist --> | `Morphe v1.45.0` <!-- patch-version:youtube-music-whitelist --> | `2026-10-02 10:50 UTC` <!-- timestamp:youtube-music-whitelist --> | Renamed packages to unlock system Dolby Atmos & Dirac audio engines | [Jump to Downloads](#-oneplus--oppo--realme-audio-enhancement) |
+| **Instagram** | `v439.0.0.37.89` <!-- app-version:instagram --> | `Piko v3.9.0` <!-- patch-version:instagram --> | `2026-10-02 10:44 UTC` <!-- timestamp:instagram --> | Ad-free feed/reels, ghost mode, high-quality media download | [Jump to Downloads](#3--instagram) |
+| **Reddit** | `v2026.24.0` <!-- app-version:reddit --> | `Morphe v1.45.0` <!-- patch-version:reddit --> | `2026-10-02 10:44 UTC` <!-- timestamp:reddit --> | Zero promoted ads, clean UI, video downloader, unlocked fonts | [Jump to Downloads](#4--reddit) |
+| **Gboard** | `v18.0.3.954559732` <!-- app-version:gboard --> | `Gboard Patches v3.11.0` <!-- patch-version:gboard --> | `2026-10-02 10:43 UTC` <!-- timestamp:gboard --> | Web Clipboard, long-press editing, symbols, calculator, custom themes, feature unlocks | [Jump to Downloads](#5--gboard) |
 
 ---
 
@@ -36,7 +36,7 @@
 
 ### 1. 🎬 YouTube
 
-> 🕒 **Last Updated:** `2026-09-24 17:45 UTC` <!-- section-timestamp:youtube -->
+> 🕒 **Last Updated:** `2026-10-02 10:48 UTC` <!-- section-timestamp:youtube --> • 📦 **Base App Version:** `v21.16.256` <!-- section-app-version:youtube --> • 🧩 **Patch Version:** `Morphe v1.45.0` <!-- section-patch-version:youtube -->
 
 Customized YouTube client with all modern quality-of-life enhancements.
 
@@ -56,7 +56,7 @@ Customized YouTube client with all modern quality-of-life enhancements.
 
 ### 2. 🎵 YouTube Music
 
-> 🕒 **Last Updated:** `2026-09-24 17:45 UTC` <!-- section-timestamp:youtube-music -->
+> 🕒 **Last Updated:** `2026-10-02 10:50 UTC` <!-- section-timestamp:youtube-music --> • 📦 **Base App Version:** `v9.15.51` <!-- section-app-version:youtube-music --> • 🧩 **Patch Version:** `Morphe v1.45.0` <!-- section-patch-version:youtube-music -->
 
 Ad-free music streaming with background playback and unrestricted playback queue controls.
 
@@ -74,7 +74,7 @@ Ad-free music streaming with background playback and unrestricted playback queue
 ### 🎧 OnePlus / Oppo / Realme Audio Enhancement
 #### *Whitelisted Package Builds for System Dolby Atmos, Dirac & O-Reality*
 
-> 🕒 **Last Updated:** `2026-09-24 17:45 UTC` <!-- section-timestamp:youtube-music-whitelist -->
+> 🕒 **Last Updated:** `2026-10-02 10:50 UTC` <!-- section-timestamp:youtube-music-whitelist --> • 📦 **Base App Version:** `v9.15.51` <!-- section-app-version:youtube-music-whitelist --> • 🧩 **Patch Version:** `Morphe v1.45.0` <!-- section-patch-version:youtube-music-whitelist -->
 
 > [!TIP]
 > ### 💡 Why do these builds exist?
@@ -122,7 +122,7 @@ Ad-free music streaming with background playback and unrestricted playback queue
 
 ### 3. 📸 Instagram
 
-> 🕒 **Last Updated:** `2026-09-24 17:45 UTC` <!-- section-timestamp:instagram -->
+> 🕒 **Last Updated:** `2026-10-02 10:44 UTC` <!-- section-timestamp:instagram --> • 📦 **Base App Version:** `v439.0.0.37.89` <!-- section-app-version:instagram --> • 🧩 **Patch Version:** `Piko v3.9.0` <!-- section-patch-version:instagram -->
 
 Enhanced Instagram client built with the Morphe MPP pipeline.
 
@@ -136,7 +136,7 @@ Enhanced Instagram client built with the Morphe MPP pipeline.
 
 ### 4. 🤖 Reddit
 
-> 🕒 **Last Updated:** `2026-09-24 17:54 UTC` <!-- section-timestamp:reddit -->
+> 🕒 **Last Updated:** `2026-10-02 10:44 UTC` <!-- section-timestamp:reddit --> • 📦 **Base App Version:** `v2026.24.0` <!-- section-app-version:reddit --> • 🧩 **Patch Version:** `Morphe v1.45.0` <!-- section-patch-version:reddit -->
 
 Distraction-free, high-speed Reddit experience.
 
@@ -151,7 +151,7 @@ Distraction-free, high-speed Reddit experience.
 
 ### 5. ⌨️ Gboard
 
-> 🕒 **Last Updated:** `2026-10-02 10:43 UTC` <!-- section-timestamp:gboard -->
+> 🕒 **Last Updated:** `2026-10-02 10:43 UTC` <!-- section-timestamp:gboard --> • 📦 **Base App Version:** `v18.0.3.954559732` <!-- section-app-version:gboard --> • 🧩 **Patch Version:** `Gboard Patches v3.11.0` <!-- section-patch-version:gboard -->
 
 Patched Google Keyboard (Gboard) powered by **[jasonwu1994/Gboard-patches](https://github.com/jasonwu1994/Gboard-patches)** with practical productivity upgrades, developer tools, custom themes, and Taiwan-focused Zhuyin enhancements.
 

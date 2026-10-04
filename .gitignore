@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*$py.class
+release/
+download/
+pup
+pup.zip
+APKEditor.jar
+*.mpp
+*.jar
+*.apk
+*.apkm
+*.xapk
+tdl
+tdl.tar.gz
+*.env
