@@ -29,7 +29,7 @@
 | **YouTube Music (Audio Whitelist)** | `v9.20.53` <!-- app-version:youtube-music-whitelist --> | `Morphe v1.46.0` <!-- patch-version:youtube-music-whitelist --> | `2026-10-06 16:14 UTC` <!-- timestamp:youtube-music-whitelist --> | Renamed packages to unlock system Dolby Atmos & Dirac audio engines | [Jump to Downloads](#-oneplus--oppo--realme-audio-enhancement) |
 | **Instagram** | `v439.0.0.37.89` <!-- app-version:instagram --> | `Piko v3.9.0` <!-- patch-version:instagram --> | `2026-10-06 16:11 UTC` <!-- timestamp:instagram --> | Ad-free feed/reels, ghost mode, high-quality media download | [Jump to Downloads](#3--instagram) |
 | **Reddit** | `v2026.24.0` <!-- app-version:reddit --> | `Morphe v1.46.0` <!-- patch-version:reddit --> | `2026-10-06 16:10 UTC` <!-- timestamp:reddit --> | Zero promoted ads, clean UI, video downloader, unlocked fonts | [Jump to Downloads](#4--reddit) |
-| **Gboard** | `v18.0.3.954559732` <!-- app-version:gboard --> | `Gboard Patches v3.12.0` <!-- patch-version:gboard --> | `2026-10-06 16:10 UTC` <!-- timestamp:gboard --> | Web Clipboard, long-press editing, symbols, calculator, custom themes, feature unlocks | [Jump to Downloads](#5--gboard) |
+| **Gboard** | `v18.0.3.954559732` <!-- app-version:gboard --> | `Gboard Patches v3.12.0` <!-- patch-version:gboard --> | `2026-10-10 16:13 UTC` <!-- timestamp:gboard --> | Web Clipboard, long-press editing, symbols, calculator, custom themes, feature unlocks | [Jump to Downloads](#5--gboard) |
 
 ---
 
@@ -190,7 +190,7 @@ Distraction-free, high-speed Reddit experience.
 
 ### 5. ⌨️ Gboard
 
-> 🕒 **Last Updated:** `2026-10-06 16:10 UTC` <!-- section-timestamp:gboard --> • 📦 **Base App Version:** `v18.0.3.954559732` <!-- section-app-version:gboard --> • 🧩 **Patch Version:** `Gboard Patches v3.12.0` <!-- section-patch-version:gboard -->
+> 🕒 **Last Updated:** `2026-10-10 16:13 UTC` <!-- section-timestamp:gboard --> • 📦 **Base App Version:** `v18.0.3.954559732` <!-- section-app-version:gboard --> • 🧩 **Patch Version:** `Gboard Patches v3.12.0` <!-- section-patch-version:gboard -->
 
 Patched Google Keyboard (Gboard) powered by **[jasonwu1994/Gboard-patches](https://github.com/jasonwu1994/Gboard-patches)** with practical productivity upgrades, developer tools, custom themes, and Taiwan-focused Zhuyin enhancements.
 
