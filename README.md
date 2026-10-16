@@ -28,7 +28,7 @@
 | **YouTube Music** | `v9.20.53` <!-- app-version:youtube-music --> | `Morphe v1.47.0` <!-- patch-version:youtube-music --> | `2026-10-11 16:42 UTC` <!-- timestamp:youtube-music --> | Audio ad blocking, background playback, lossless audio support | [Jump to Downloads](#2--youtube-music) |
 | **YouTube Music (Audio Whitelist)** | `v9.20.53` <!-- app-version:youtube-music-whitelist --> | `Morphe v1.47.0` <!-- patch-version:youtube-music-whitelist --> | `2026-10-11 16:42 UTC` <!-- timestamp:youtube-music-whitelist --> | Renamed packages to unlock system Dolby Atmos & Dirac audio engines | [Jump to Downloads](#-oneplus--oppo--realme-audio-enhancement) |
 | **Instagram** | `v447.0.0.55.81` <!-- app-version:instagram --> | `Piko v3.10.0` <!-- patch-version:instagram --> | `2026-10-11 16:39 UTC` <!-- timestamp:instagram --> | Ad-free feed/reels, ghost mode, high-quality media download | [Jump to Downloads](#3--instagram) |
-| **Reddit** | `v2026.24.0` <!-- app-version:reddit --> | `Morphe v1.47.0` <!-- patch-version:reddit --> | `2026-10-11 16:39 UTC` <!-- timestamp:reddit --> | Zero promoted ads, clean UI, video downloader, unlocked fonts | [Jump to Downloads](#4--reddit) |
+| **Reddit** | `v2026.24.0` <!-- app-version:reddit --> | `Morphe v1.47.0` <!-- patch-version:reddit --> | `2026-10-16 14:38 UTC` <!-- timestamp:reddit --> | Zero promoted ads, clean UI, video downloader, unlocked fonts | [Jump to Downloads](#4--reddit) |
 | **Gboard** | `v18.0.3.954559732` <!-- app-version:gboard --> | `Gboard Patches v3.13.0` <!-- patch-version:gboard --> | `2026-10-16 14:37 UTC` <!-- timestamp:gboard --> | Web Clipboard, long-press editing, symbols, calculator, custom themes, feature unlocks | [Jump to Downloads](#5--gboard) |
 
 ---
@@ -175,7 +175,7 @@ Enhanced Instagram client built with the Morphe MPP pipeline.
 
 ### 4. 🤖 Reddit
 
-> 🕒 **Last Updated:** `2026-10-11 16:39 UTC` <!-- section-timestamp:reddit --> • 📦 **Base App Version:** `v2026.24.0` <!-- section-app-version:reddit --> • 🧩 **Patch Version:** `Morphe v1.47.0` <!-- section-patch-version:reddit -->
+> 🕒 **Last Updated:** `2026-10-16 14:38 UTC` <!-- section-timestamp:reddit --> • 📦 **Base App Version:** `v2026.24.0` <!-- section-app-version:reddit --> • 🧩 **Patch Version:** `Morphe v1.47.0` <!-- section-patch-version:reddit -->
 
 Distraction-free, high-speed Reddit experience.
 
