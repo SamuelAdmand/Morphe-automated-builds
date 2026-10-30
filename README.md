@@ -27,7 +27,7 @@
 | **YouTube (Audio Whitelist)** | `v21.20.405` <!-- app-version:youtube-whitelist --> | `Morphe v1.48.0` <!-- patch-version:youtube-whitelist --> | `2026-10-26 23:08 UTC` <!-- timestamp:youtube-whitelist --> | Renamed packages to unlock system Dolby Atmos & Dirac audio engines | [Jump to Downloads](#-oneplus--oppo--realme-audio-enhancement) |
 | **YouTube Music** | `v9.20.53` <!-- app-version:youtube-music --> | `Morphe v1.48.0` <!-- patch-version:youtube-music --> | `2026-10-26 23:06 UTC` <!-- timestamp:youtube-music --> | Audio ad blocking, background playback, lossless audio support | [Jump to Downloads](#2--youtube-music) |
 | **YouTube Music (Audio Whitelist)** | `v9.20.53` <!-- app-version:youtube-music-whitelist --> | `Morphe v1.48.0` <!-- patch-version:youtube-music-whitelist --> | `2026-10-26 23:06 UTC` <!-- timestamp:youtube-music-whitelist --> | Renamed packages to unlock system Dolby Atmos & Dirac audio engines | [Jump to Downloads](#-oneplus--oppo--realme-audio-enhancement) |
-| **Instagram** | `v447.0.0.55.81` <!-- app-version:instagram --> | `Piko v3.10.0` <!-- patch-version:instagram --> | `2026-10-26 23:05 UTC` <!-- timestamp:instagram --> | Ad-free feed/reels, ghost mode, high-quality media download | [Jump to Downloads](#3--instagram) |
+| **Instagram** | `v447.0.0.55.81` <!-- app-version:instagram --> | `Piko v3.10.0` <!-- patch-version:instagram --> | `2026-10-30 13:23 UTC` <!-- timestamp:instagram --> | Ad-free feed/reels, ghost mode, high-quality media download | [Jump to Downloads](#3--instagram) |
 | **Reddit** | `v2026.40.0` <!-- app-version:reddit --> | `Morphe v2.0.0` <!-- patch-version:reddit --> | `2026-10-30 13:23 UTC` <!-- timestamp:reddit --> | Zero promoted ads, clean UI, video downloader, unlocked fonts | [Jump to Downloads](#4--reddit) |
 | **Gboard** | `v18.5.4.993608717` <!-- app-version:gboard --> | `Gboard Patches v4.0.0` <!-- patch-version:gboard --> | `2026-10-30 13:22 UTC` <!-- timestamp:gboard --> | Web Clipboard, long-press editing, symbols, calculator, custom themes, feature unlocks | [Jump to Downloads](#5--gboard) |
 
@@ -161,7 +161,7 @@ Ad-free music streaming with background playback and unrestricted playback queue
 
 ### 3. 📸 Instagram
 
-> 🕒 **Last Updated:** `2026-10-26 23:05 UTC` <!-- section-timestamp:instagram --> • 📦 **Base App Version:** `v447.0.0.55.81` <!-- section-app-version:instagram --> • 🧩 **Patch Version:** `Piko v3.10.0` <!-- section-patch-version:instagram -->
+> 🕒 **Last Updated:** `2026-10-30 13:23 UTC` <!-- section-timestamp:instagram --> • 📦 **Base App Version:** `v447.0.0.55.81` <!-- section-app-version:instagram --> • 🧩 **Patch Version:** `Piko v3.10.0` <!-- section-patch-version:instagram -->
 
 Enhanced Instagram client built with the Morphe MPP pipeline.
 
