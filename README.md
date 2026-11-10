@@ -25,8 +25,8 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **YouTube** | `v21.30.216` <!-- app-version:youtube --> | `Morphe v2.1.0` <!-- patch-version:youtube --> | `2026-11-09 11:04 UTC` <!-- timestamp:youtube --> | Ad blocking, SponsorBlock, Return Dislike, Background Play, AMOLED | [Jump to Downloads](#1--youtube) |
 | **YouTube (Audio Whitelist)** | `v21.30.216` <!-- app-version:youtube-whitelist --> | `Morphe v2.1.0` <!-- patch-version:youtube-whitelist --> | `2026-11-09 11:04 UTC` <!-- timestamp:youtube-whitelist --> | Renamed packages to unlock system Dolby Atmos & Dirac audio engines | [Jump to Downloads](#-oneplus--oppo--realme-audio-enhancement) |
-| **YouTube Music** | `v9.30.53` <!-- app-version:youtube-music --> | `Morphe v2.1.0` <!-- patch-version:youtube-music --> | `2026-11-09 11:02 UTC` <!-- timestamp:youtube-music --> | Audio ad blocking, background playback, lossless audio support | [Jump to Downloads](#2--youtube-music) |
-| **YouTube Music (Audio Whitelist)** | `v9.30.53` <!-- app-version:youtube-music-whitelist --> | `Morphe v2.1.0` <!-- patch-version:youtube-music-whitelist --> | `2026-11-09 11:02 UTC` <!-- timestamp:youtube-music-whitelist --> | Renamed packages to unlock system Dolby Atmos & Dirac audio engines | [Jump to Downloads](#-oneplus--oppo--realme-audio-enhancement) |
+| **YouTube Music** | `v9.30.53` <!-- app-version:youtube-music --> | `Morphe v2.2.0` <!-- patch-version:youtube-music --> | `2026-11-10 19:59 UTC` <!-- timestamp:youtube-music --> | Audio ad blocking, background playback, lossless audio support | [Jump to Downloads](#2--youtube-music) |
+| **YouTube Music (Audio Whitelist)** | `v9.30.53` <!-- app-version:youtube-music-whitelist --> | `Morphe v2.2.0` <!-- patch-version:youtube-music-whitelist --> | `2026-11-10 19:59 UTC` <!-- timestamp:youtube-music-whitelist --> | Renamed packages to unlock system Dolby Atmos & Dirac audio engines | [Jump to Downloads](#-oneplus--oppo--realme-audio-enhancement) |
 | **Instagram** | `v452.1.0.53.64` <!-- app-version:instagram --> | `Piko v3.11.1` <!-- patch-version:instagram --> | `2026-11-10 19:57 UTC` <!-- timestamp:instagram --> | Ad-free feed/reels, ghost mode, high-quality media download | [Jump to Downloads](#3--instagram) |
 | **Reddit** | `v2026.40.0` <!-- app-version:reddit --> | `Morphe v2.2.0` <!-- patch-version:reddit --> | `2026-11-10 19:57 UTC` <!-- timestamp:reddit --> | Zero promoted ads, clean UI, video downloader, unlocked fonts | [Jump to Downloads](#4--reddit) |
 | **Gboard** | `v18.5.4.993608717` <!-- app-version:gboard --> | `Gboard Patches v4.2.0` <!-- patch-version:gboard --> | `2026-11-10 19:56 UTC` <!-- timestamp:gboard --> | Web Clipboard, long-press editing, symbols, calculator, custom themes, feature unlocks | [Jump to Downloads](#5--gboard) |
@@ -57,7 +57,7 @@ Customized YouTube client with all modern quality-of-life enhancements.
 
 ### 2. 🎵 YouTube Music
 
-> 🕒 **Last Updated:** `2026-11-09 11:02 UTC` <!-- section-timestamp:youtube-music --> • 📦 **Base App Version:** `v9.30.53` <!-- section-app-version:youtube-music --> • 🧩 **Patch Version:** `Morphe v2.1.0` <!-- section-patch-version:youtube-music -->
+> 🕒 **Last Updated:** `2026-11-10 19:59 UTC` <!-- section-timestamp:youtube-music --> • 📦 **Base App Version:** `v9.30.53` <!-- section-app-version:youtube-music --> • 🧩 **Patch Version:** `Morphe v2.2.0` <!-- section-patch-version:youtube-music -->
 
 Ad-free music streaming with background playback and unrestricted playback queue controls.
 
@@ -76,9 +76,9 @@ Ad-free music streaming with background playback and unrestricted playback queue
 #### *Whitelisted Package Builds for System Dolby Atmos, Dirac & O-Reality*
 
 <<<<<<< HEAD
-> 🕒 **Last Updated:** `2026-11-09 11:02 UTC` <!-- section-timestamp:youtube-music-whitelist --> • 📦 **Base App Version:** `v9.30.53` <!-- section-app-version:youtube-music-whitelist --> • 🧩 **Patch Version:** `Morphe v2.1.0` <!-- section-patch-version:youtube-music-whitelist -->
+> 🕒 **Last Updated:** `2026-11-10 19:59 UTC` <!-- section-timestamp:youtube-music-whitelist --> • 📦 **Base App Version:** `v9.30.53` <!-- section-app-version:youtube-music-whitelist --> • 🧩 **Patch Version:** `Morphe v2.2.0` <!-- section-patch-version:youtube-music-whitelist -->
 =======
-> 🕒 **Last Updated:** `2026-11-09 11:02 UTC` <!-- section-timestamp:youtube-music-whitelist --> • 📦 **Base App Version:** `v21.16.256` / `v9.15.51` • 🧩 **Patch Version:** `Morphe v2.1.0` <!-- section-patch-version:youtube-whitelist -->
+> 🕒 **Last Updated:** `2026-11-10 19:59 UTC` <!-- section-timestamp:youtube-music-whitelist --> • 📦 **Base App Version:** `v21.16.256` / `v9.15.51` • 🧩 **Patch Version:** `Morphe v2.1.0` <!-- section-patch-version:youtube-whitelist -->
 >>>>>>> e7cd905 (feat(youtube): add OnePlus/Oppo audio whitelist package variants)
 
 > [!TIP]
