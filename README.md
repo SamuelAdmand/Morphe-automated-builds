@@ -23,8 +23,8 @@
 
 | App | Base App Version | Patch Version | Last Updated | Highlights | Direct Download |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **YouTube** | `v21.30.216` <!-- app-version:youtube --> | `Morphe v2.2.0` <!-- patch-version:youtube --> | `2026-11-10 20:01 UTC` <!-- timestamp:youtube --> | Ad blocking, SponsorBlock, Return Dislike, Background Play, AMOLED | [Jump to Downloads](#1--youtube) |
-| **YouTube (Audio Whitelist)** | `v21.30.216` <!-- app-version:youtube-whitelist --> | `Morphe v2.2.0` <!-- patch-version:youtube-whitelist --> | `2026-11-10 20:01 UTC` <!-- timestamp:youtube-whitelist --> | Renamed packages to unlock system Dolby Atmos & Dirac audio engines | [Jump to Downloads](#-oneplus--oppo--realme-audio-enhancement) |
+| **YouTube** | `v21.30.216` <!-- app-version:youtube --> | `Morphe v2.2.0` <!-- patch-version:youtube --> | `2026-11-13 01:00 UTC` <!-- timestamp:youtube --> | Ad blocking, SponsorBlock, Return Dislike, Background Play, AMOLED | [Jump to Downloads](#1--youtube) |
+| **YouTube (Audio Whitelist)** | `v21.30.216` <!-- app-version:youtube-whitelist --> | `Morphe v2.2.0` <!-- patch-version:youtube-whitelist --> | `2026-11-13 01:00 UTC` <!-- timestamp:youtube-whitelist --> | Renamed packages to unlock system Dolby Atmos & Dirac audio engines | [Jump to Downloads](#-oneplus--oppo--realme-audio-enhancement) |
 | **YouTube Music** | `v9.30.53` <!-- app-version:youtube-music --> | `Morphe v2.2.0` <!-- patch-version:youtube-music --> | `2026-11-13 00:59 UTC` <!-- timestamp:youtube-music --> | Audio ad blocking, background playback, lossless audio support | [Jump to Downloads](#2--youtube-music) |
 | **YouTube Music (Audio Whitelist)** | `v9.30.53` <!-- app-version:youtube-music-whitelist --> | `Morphe v2.2.0` <!-- patch-version:youtube-music-whitelist --> | `2026-11-13 00:59 UTC` <!-- timestamp:youtube-music-whitelist --> | Renamed packages to unlock system Dolby Atmos & Dirac audio engines | [Jump to Downloads](#-oneplus--oppo--realme-audio-enhancement) |
 | **Instagram** | `v452.1.0.53.64` <!-- app-version:instagram --> | `Piko v3.11.1` <!-- patch-version:instagram --> | `2026-11-13 00:57 UTC` <!-- timestamp:instagram --> | Ad-free feed/reels, ghost mode, high-quality media download | [Jump to Downloads](#3--instagram) |
@@ -37,7 +37,7 @@
 
 ### 1. 🎬 YouTube
 
-> 🕒 **Last Updated:** `2026-11-10 20:01 UTC` <!-- section-timestamp:youtube --> • 📦 **Base App Version:** `v21.30.216` <!-- section-app-version:youtube --> • 🧩 **Patch Version:** `Morphe v2.2.0` <!-- section-patch-version:youtube -->
+> 🕒 **Last Updated:** `2026-11-13 01:00 UTC` <!-- section-timestamp:youtube --> • 📦 **Base App Version:** `v21.30.216` <!-- section-app-version:youtube --> • 🧩 **Patch Version:** `Morphe v2.2.0` <!-- section-patch-version:youtube -->
 
 Customized YouTube client with all modern quality-of-life enhancements.
 
